@@ -77,6 +77,12 @@ Tests generate synthetic PDFs containing searchable text, tables, a scan, images
 
 Run `sample.py` to generate `examples/synthetic-claim.pdf`, which is deliberately **not anonymized** and contains only fictional identifiers. Run `make_demo.py` to generate an anonymized demonstration PDF, text and report. These demonstrate completed redactions, not a detector guarantee. Generated documents and local validation reports are excluded from Git.
 
+## License
+
+This project's original source code is licensed under the **GNU Affero General Public License, version 3 only** (SPDX identifier: `AGPL-3.0-only`). See [LICENSE](LICENSE) for the full license text.
+
+Third-party components remain under their respective licenses; the project license does not replace their license terms or notices. In particular, the bundled English OCR model retains its Apache 2.0 license in [tessdata/LICENSE](tessdata/LICENSE).
+
 ## Dependency notices
 
 PyMuPDF is distributed under AGPL/commercial licensing; review its license before redistributing this application. Pillow, OpenCV, NumPy, Python/Tk and PyInstaller have their own license terms, included by their distributions. The English model is from `tesseract-ocr/tessdata_fast`, licensed Apache 2.0; see `tessdata/LICENSE`. This app uses no model requiring a cloud service.
