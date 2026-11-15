@@ -1,0 +1,22 @@
+# Local runtime and generated builds
+.venv/
+__pycache__/
+.pytest_cache/
+build/
+dist/
+*.spec
+test-output/
+# Documents, exported content and local audit records must never be committed
+examples/
+*.pdf
+*.txt
+!requirements.txt
+!requirements-dev.txt
+*.json
+*.png
+*.jpg
+*.jpeg
+VALIDATION.md
+.env
+.env.*
+*.log
